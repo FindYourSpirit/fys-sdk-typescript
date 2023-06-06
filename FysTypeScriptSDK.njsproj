@@ -39,8 +39,22 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="src\" />
+    <Folder Include="src\Commands\" />
+    <Folder Include="src\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\Commands\GetApiCommand.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\Commands\PostApiCommand.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\Interfaces\IApiCommand.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\SdkClient.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\SdkConfiguration.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
