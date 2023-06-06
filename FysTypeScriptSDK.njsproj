@@ -43,6 +43,9 @@
     <Folder Include="src\Interfaces\" />
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="src\ApiException.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
     <TypeScriptCompile Include="src\Commands\GetApiCommand.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
@@ -50,6 +53,9 @@
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\Interfaces\IApiCommand.ts">
+      <SubType>Code</SubType>
+    </TypeScriptCompile>
+    <TypeScriptCompile Include="src\Model.ts">
       <SubType>Code</SubType>
     </TypeScriptCompile>
     <TypeScriptCompile Include="src\SdkClient.ts">
