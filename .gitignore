@@ -1,0 +1,34 @@
+# Build output
+/dist/
+/out/
+
+# Dependencies
+/node_modules/
+
+# IDE and editor files
+/.vscode/
+/.idea/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.log
+*.bak
+
+# Compiled TypeScript
+*.js
+
+# Package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Environment variables
+.env
+
+# Miscellaneous
+.DS_Store
+Thumbs.db
+
+# Ignore the .vs directory
+.vs/
